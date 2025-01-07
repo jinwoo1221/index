@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<!--
+   Telephasic by HTML5 UP
+   html5up.net | @ajlkn
+   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+   <head>
+      <title></title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <link rel="stylesheet" href="assets/css/main.css" />
+
+      <!-- jQuery (필수) -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+      <!-- Slick CSS -->
+      <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+      <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+      />
+
+      <!-- Slick JS -->
+      <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+   </head>
+   <body class="left-sidebar is-preload">
+      <div id="page-wrapper">
+
+         <!-- Header -->
+            <div id="header-wrapper">
+               <div id="header" class="container">
+
+                  <!-- Logo -->
+                     <h1 id="logo"><a href="index.html"></a></h1>
+
+                  <!-- Nav -->
+                     <nav id="nav">
+                        <ul>
+                           <li>
+                              <a href="#">Dropdown</a>
+                              <ul>
+                                 <li><a href="#">Lorem ipsum dolor</a></li>
+                                 <li><a href="#">Magna phasellus</a></li>
+                                 <li><a href="#">Etiam dolore nisl</a></li>
+                                 <li>
+                                    <a href="#">Phasellus consequat</a>
+                                    <ul>
+                                       <li><a href="#">Lorem ipsum dolor</a></li>
+                                       <li><a href="#">Phasellus consequat</a></li>
+                                       <li><a href="#">Magna phasellus</a></li>
+                                       <li><a href="#">Etiam dolore nisl</a></li>
+                                    </ul>
+                                 </li>
+                                 <li><a href="#">Veroeros feugiat</a></li>
+                              </ul>
+                           </li>
+                           <li><a href="left-sidebar.html">Left Sidebar</a></li>
+                           <li class="break"><a href="right-sidebar.html">Right Sidebar</a></li>
+                           <li><a href="no-sidebar.html">No Sidebar</a></li>
+                        </ul>
+                     </nav>
+
+               </div>
+            </div>
+
+         <!-- Main -->
+         <div class="wrapper">
+            <div class="container" id="main">
+                  <!-- Image Slider -->
+                  <div class="slider">
+                        <div>
+                           <img src="images/59.jpg" alt="Slide 1">
+						   <style>
+							.slick-slide img {
+							   display: block;
+							   margin: 0 auto; /* 수평 중앙 정렬 */
+							   max-width: 100%; /* 부모 요소를 벗어나지 않도록 설정 */
+							   max-height: 100%; /* 부모 요소를 벗어나지 않도록 설정 */
+							   object-fit: cover; /* 이미지가 잘리지 않고 비율을 유지하면서 중앙 정렬 */
+							}
+						 </style>
+                        </div>
+                        <div>
+                           <img src="images/66.jpg" alt="Slide 2">
+                        </div>
+                        <div>
+                           <img src="images/15.jpg" alt="Slide 3">
+                        </div>
+						<div>
+							<img src="images/26.jpg" alt="Slide 3">
+						 </div>
+						 <div>
+							<img src="images/31.jpg" alt="Slide 3">
+						 </div>
+						 <div>
+							<img src="images/39.jpg" alt="Slide 3">
+						 </div>
+                  </div>
+                  <!-- End of Image Slider -->
+               <div class="row features">
+               </div>
+            </div> x
+         </div>
+         <!-- Footer -->
+            <div id="footer-wrapper">
+               <div id="footer" class="container">
+                  <header class="major">
+                     <h2>footer</h2>
+                     <p>1<br/>
+                     1</p>
+                  </header>
+                 
+                     <section class="col-6 col-12-narrower">
+                        <div class="row gtr-0">
+                           <ul class="divided icons col-6 col-12-mobile">
+                              <li class="icon brands fa-twitter"><a href="#"><span class="extra">twitter.com/</span>untitled</a></li>
+                              <li class="icon brands fa-facebook-f"><a href="#"><span class="extra">facebook.com/</span>untitled</a></li>
+                              <li class="icon brands fa-dribbble"><a href="#"><span class="extra">dribbble.com/</span>untitled</a></li>
+                           </ul>
+                           <ul class="divided icons col-6 col-12-mobile">
+                              <li class="icon brands fa-instagram"><a href="#"><span class="extra">instagram.com/</span>untitled</a></li>
+                              <li class="icon brands fa-youtube"><a href="#"><span class="extra">youtube.com/</span>untitled</a></li>
+                              <li class="icon brands fa-pinterest"><a href="#"><span class="extra">pinterest.com/</span>untitled</a></li>
+                           </ul>
+                        </div>
+                     </section>
+                  </div>
+               </div>
+               <div id="copyright" class="container">
+                  <ul class="menu">
+                     <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                  </ul>
+               </div>
+            </div>
+
+      </div>
+
+      <!-- Scripts -->
+<!--         <script src="assets/js/jquery.min.js"></script>-->
+         <script src="assets/js/jquery.dropotron.min.js"></script>
+         <script src="assets/js/browser.min.js"></script>
+         <script src="assets/js/breakpoints.min.js"></script>
+         <script src="assets/js/util.js"></script>
+         <script src="assets/js/main.js"></script>
+         <script>
+            $(document).ready(function(){
+               $('.slider').slick({
+                  infinite: true,
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  autoplay: true,
+                  autoplaySpeed: 5000,
+                  arrows: true,
+                  dots: true
+               });
+            });
+
+			
+         </script>
+   </body>
+
+</html>
